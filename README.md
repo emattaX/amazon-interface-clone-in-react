@@ -1,3 +1,3 @@
 # Amazon Interface clone in React
 
-Brushing up some more on React skills recrating Amazon's front-end with Firebase db and login.  
+Brushing up on some more on React skills recrating Amazon's front-end with Firebase db and login.  
