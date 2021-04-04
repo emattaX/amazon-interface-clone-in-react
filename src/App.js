@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hi, this is an Amazon clone in React 🚀 </h1>
-    </div>
+    </div> 
   );
 }
 
