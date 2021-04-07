@@ -10,7 +10,7 @@ function Product({ id, title, image, price, rating }) {
     const addToCart = () => {
         // Dispatch the item into the data layer
         dispatch({
-            type: 'ADD TO CART',
+            type: 'ADD_TO_CART',
             item: {
                 id: id,
                 title: title,
@@ -30,7 +30,7 @@ function Product({ id, title, image, price, rating }) {
                     <strong>{price}</strong>
                 </p>
                 <div className='product__rating'>
-                    {Array(rating).fill().map((_,i) => (<p>⭐</p>))}  
+                    {Array(rating).fill().map((_,i) => (<p>🚀</p>))}  
                 </div>
             </div>
 
