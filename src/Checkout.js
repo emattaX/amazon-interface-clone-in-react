@@ -6,7 +6,7 @@ import CheckoutProduct from './CheckoutProduct'
 
 function Checkout() {
 
-    const [{ cart }, dispatch] = useStateValue()
+    const [{ cart, user },dispatch] = useStateValue()
 
     return (
         <div className='checkout'>
@@ -16,6 +16,7 @@ function Checkout() {
                 alt='' 
                 />
                 <div className='checkout__title'>
+                    <h3>Hi there👋  {user?.email} </h3>
                     <h2>Your Shopping Cart</h2>
                     {/* For each item in the cart render the CheckoutProduct component*/}
                     {cart.map(item => (
